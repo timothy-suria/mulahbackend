@@ -93,7 +93,7 @@ def generate_html(articles):
     </html>
     """
     
-    with open('verge_titles.html', 'w') as file:
+    with open('index.html', 'w') as file:
         file.write(html_content)
 
 def main():
