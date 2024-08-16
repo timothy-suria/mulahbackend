@@ -59,7 +59,6 @@ def scrape_the_verge():
 
     # Sort articles anti-chronologically
     articles.sort(key=lambda x: x['date'], reverse=True)
-    articles.reverse()
     return articles
 
 def generate_html(articles):
